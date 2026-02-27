@@ -13,7 +13,6 @@ const ARViewer = ({ modelPath }) => {
 
   return (
     <div style={{ width: '100%', height: '100vh' }}>
-            <h1>Тест: компонент загружен</h1>
       <model-viewer
         ref={modelRef}
         src={modelPath}
